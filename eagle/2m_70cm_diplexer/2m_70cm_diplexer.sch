@@ -1,0 +1,346 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	7300 2900 7100 2900
+Wire Wire Line
+	6500 2900 6300 2900
+Wire Wire Line
+	6300 2900 6200 2900
+Wire Wire Line
+	6300 3100 6300 2900
+Connection ~ 6300 2900
+Wire Wire Line
+	5600 2900 5500 2900
+Wire Wire Line
+	5500 2900 5400 2900
+Wire Wire Line
+	5500 3100 5500 2900
+Connection ~ 5500 2900
+Wire Wire Line
+	5300 4500 5500 4500
+Wire Wire Line
+	5500 4500 5800 4500
+Wire Wire Line
+	5500 4600 5500 4500
+Connection ~ 5500 4500
+Wire Wire Line
+	6100 4500 6300 4500
+Wire Wire Line
+	6300 4500 6700 4500
+Wire Wire Line
+	6300 4600 6300 4500
+Connection ~ 6300 4500
+Wire Wire Line
+	7000 4500 7300 4500
+Wire Wire Line
+	7700 2600 8000 2600
+Wire Wire Line
+	8000 2600 8000 2900
+Wire Wire Line
+	8000 2900 8200 2900
+Wire Wire Line
+	8200 2900 8200 3000
+Wire Wire Line
+	8000 2900 8000 3200
+Wire Wire Line
+	8000 3200 7700 3200
+Wire Wire Line
+	7500 3200 7700 3200
+Wire Wire Line
+	7500 2600 7700 2600
+Connection ~ 8000 2900
+Connection ~ 7700 3200
+Connection ~ 7700 2600
+Text Label 7700 2600 0    10   ~ 0
+GND
+Wire Wire Line
+	7500 4800 7700 4800
+Wire Wire Line
+	7700 4800 8000 4800
+Wire Wire Line
+	8000 4800 8000 4500
+Wire Wire Line
+	8000 4500 8200 4500
+Wire Wire Line
+	8200 4500 8200 4600
+Wire Wire Line
+	8000 4500 8000 4200
+Wire Wire Line
+	8000 4200 7700 4200
+Wire Wire Line
+	7700 4200 7500 4200
+Connection ~ 7700 4800
+Connection ~ 8000 4500
+Connection ~ 7700 4200
+Text Label 7500 4800 0    10   ~ 0
+GND
+Wire Wire Line
+	5900 5300 6300 5300
+Wire Wire Line
+	5900 5300 5900 5400
+Wire Wire Line
+	5500 5300 5900 5300
+Wire Wire Line
+	6300 5300 6300 5200
+Wire Wire Line
+	5500 5300 5500 5200
+Connection ~ 5900 5300
+Text Label 5900 5300 0    10   ~ 0
+GND
+Wire Wire Line
+	6300 3400 6300 3600
+Wire Wire Line
+	5900 3600 6300 3600
+Wire Wire Line
+	5900 3600 5900 3700
+Wire Wire Line
+	5500 3600 5900 3600
+Wire Wire Line
+	5500 3400 5500 3600
+Connection ~ 5900 3600
+Text Label 6300 3400 0    10   ~ 0
+GND
+Wire Wire Line
+	3500 3600 3500 3700
+Wire Wire Line
+	4100 3300 3900 3300
+Wire Wire Line
+	3900 3300 3700 3300
+Wire Wire Line
+	3700 3300 3700 3600
+Wire Wire Line
+	3700 3600 3500 3600
+Wire Wire Line
+	3900 3900 3700 3900
+Wire Wire Line
+	3700 3900 3700 3600
+Wire Wire Line
+	3900 3900 4100 3900
+Connection ~ 3900 3300
+Connection ~ 3700 3600
+Connection ~ 3900 3900
+Text Label 3500 3600 0    10   ~ 0
+GND
+Wire Wire Line
+	4800 2900 4700 2900
+Wire Wire Line
+	4700 2900 4700 3600
+Wire Wire Line
+	4700 3600 4700 4500
+Wire Wire Line
+	4700 4500 5000 4500
+Wire Wire Line
+	4300 3600 4700 3600
+Connection ~ 4700 3600
+$Comp
+L 2m_70cm_diplexer-eagle-import:SMACONNECTOR_EDGE COMMON1
+U 1 1 18F8C31C
+P 4000 3600
+F 0 "COMMON1" H 4300 3700 42  0000 L BNN
+F 1 "SMACONNECTOR_EDGE" H 4300 3600 42  0000 L BNN
+F 2 "2m_70cm_diplexer:SMA_EDGELAUNCH" H 4000 3600 50  0001 C CNN
+F 3 "" H 4000 3600 50  0001 C CNN
+	1    4000 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2m_70cm_diplexer-eagle-import:SMACONNECTOR_EDGE 2M1
+U 1 1 1C800335
+P 7600 2900
+F 0 "2M1" H 7900 3000 42  0000 L BNN
+F 1 "SMACONNECTOR_EDGE" H 7900 2900 42  0000 L BNN
+F 2 "2m_70cm_diplexer:SMA_EDGELAUNCH" H 7600 2900 50  0001 C CNN
+F 3 "" H 7600 2900 50  0001 C CNN
+	1    7600 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2m_70cm_diplexer-eagle-import:SMACONNECTOR_EDGE 70CM1
+U 1 1 13D9BB3F
+P 7600 4500
+F 0 "70CM1" H 7900 4600 42  0000 L BNN
+F 1 "SMACONNECTOR_EDGE" H 7900 4500 42  0000 L BNN
+F 2 "2m_70cm_diplexer:SMA_EDGELAUNCH" H 7600 4500 50  0001 C CNN
+F 3 "" H 7600 4500 50  0001 C CNN
+	1    7600 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2m_70cm_diplexer-eagle-import:GND #GND01
+U 1 1 DB8695AC
+P 5900 3800
+F 0 "#GND01" H 5900 3800 50  0001 C CNN
+F 1 "GND" H 5800 3700 59  0000 L BNN
+F 2 "" H 5900 3800 50  0001 C CNN
+F 3 "" H 5900 3800 50  0001 C CNN
+	1    5900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2m_70cm_diplexer-eagle-import:GND #GND02
+U 1 1 13A376EC
+P 5900 5500
+F 0 "#GND02" H 5900 5500 50  0001 C CNN
+F 1 "GND" H 5800 5400 59  0000 L BNN
+F 2 "" H 5900 5500 50  0001 C CNN
+F 3 "" H 5900 5500 50  0001 C CNN
+	1    5900 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2m_70cm_diplexer-eagle-import:GND #GND03
+U 1 1 7679BDCC
+P 8200 4700
+F 0 "#GND03" H 8200 4700 50  0001 C CNN
+F 1 "GND" H 8100 4600 59  0000 L BNN
+F 2 "" H 8200 4700 50  0001 C CNN
+F 3 "" H 8200 4700 50  0001 C CNN
+	1    8200 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2m_70cm_diplexer-eagle-import:GND #GND04
+U 1 1 D896219B
+P 8200 3100
+F 0 "#GND04" H 8200 3100 50  0001 C CNN
+F 1 "GND" H 8100 3000 59  0000 L BNN
+F 2 "" H 8200 3100 50  0001 C CNN
+F 3 "" H 8200 3100 50  0001 C CNN
+	1    8200 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2m_70cm_diplexer-eagle-import:GND #GND05
+U 1 1 EF27308A
+P 3500 3800
+F 0 "#GND05" H 3500 3800 50  0001 C CNN
+F 1 "GND" H 3400 3700 59  0000 L BNN
+F 2 "" H 3500 3800 50  0001 C CNN
+F 3 "" H 3500 3800 50  0001 C CNN
+	1    3500 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2m_70cm_diplexer-eagle-import:1008INDUCTOR L1
+U 1 1 E1B946B8
+P 5100 2900
+F 0 "L1" H 4900 3000 59  0000 L BNN
+F 1 "56nH" H 4900 2750 59  0000 L BNN
+F 2 "2m_70cm_diplexer:1008INDUCTOR" H 5100 2900 50  0001 C CNN
+F 3 "" H 5100 2900 50  0001 C CNN
+	1    5100 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2m_70cm_diplexer-eagle-import:1008INDUCTOR L2
+U 1 1 C87B75CD
+P 5900 2900
+F 0 "L2" H 5700 3000 59  0000 L BNN
+F 1 "100nH" H 5700 2750 59  0000 L BNN
+F 2 "2m_70cm_diplexer:1008INDUCTOR" H 5900 2900 50  0001 C CNN
+F 3 "" H 5900 2900 50  0001 C CNN
+	1    5900 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2m_70cm_diplexer-eagle-import:1008INDUCTOR L3
+U 1 1 BB752A4D
+P 6800 2900
+F 0 "L3" H 6600 3000 59  0000 L BNN
+F 1 "56nH" H 6600 2750 59  0000 L BNN
+F 2 "2m_70cm_diplexer:1008INDUCTOR" H 6800 2900 50  0001 C CNN
+F 3 "" H 6800 2900 50  0001 C CNN
+	1    6800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2m_70cm_diplexer-eagle-import:1008INDUCTOR L4
+U 1 1 96A16B73
+P 5500 4900
+F 0 "L4" H 5300 5000 59  0000 L BNN
+F 1 "15nH" H 5300 4750 59  0000 L BNN
+F 2 "2m_70cm_diplexer:1008INDUCTOR" H 5500 4900 50  0001 C CNN
+F 3 "" H 5500 4900 50  0001 C CNN
+	1    5500 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 2m_70cm_diplexer-eagle-import:1008INDUCTOR L5
+U 1 1 63F31349
+P 6300 4900
+F 0 "L5" H 6100 5000 59  0000 L BNN
+F 1 "15nH" H 6100 4750 59  0000 L BNN
+F 2 "2m_70cm_diplexer:1008INDUCTOR" H 6300 4900 50  0001 C CNN
+F 3 "" H 6300 4900 50  0001 C CNN
+	1    6300 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 2m_70cm_diplexer-eagle-import:0805CAP C6
+U 1 1 6BA15314
+P 5500 3300
+F 0 "C6" H 5570 3420 42  0000 L BNN
+F 1 "22pF" H 5560 3230 42  0000 L BNN
+F 2 "2m_70cm_diplexer:0805" H 5500 3300 50  0001 C CNN
+F 3 "" H 5500 3300 50  0001 C CNN
+	1    5500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2m_70cm_diplexer-eagle-import:0805CAP C7
+U 1 1 2C2545C3
+P 6300 3300
+F 0 "C7" H 6370 3420 42  0000 L BNN
+F 1 "22pF" H 6360 3230 42  0000 L BNN
+F 2 "2m_70cm_diplexer:0805" H 6300 3300 50  0001 C CNN
+F 3 "" H 6300 3300 50  0001 C CNN
+	1    6300 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2m_70cm_diplexer-eagle-import:0805CAP C8
+U 1 1 A894C7A0
+P 5200 4500
+F 0 "C8" H 5270 4620 42  0000 L BNN
+F 1 "8.2pF" H 5260 4430 42  0000 L BNN
+F 2 "2m_70cm_diplexer:0805" H 5200 4500 50  0001 C CNN
+F 3 "" H 5200 4500 50  0001 C CNN
+	1    5200 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 2m_70cm_diplexer-eagle-import:0805CAP C9
+U 1 1 A9B1E90A
+P 6000 4500
+F 0 "C9" H 6070 4620 42  0000 L BNN
+F 1 "5.6pF" H 6060 4430 42  0000 L BNN
+F 2 "2m_70cm_diplexer:0805" H 6000 4500 50  0001 C CNN
+F 3 "" H 6000 4500 50  0001 C CNN
+	1    6000 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 2m_70cm_diplexer-eagle-import:0805CAP C10
+U 1 1 7510117B
+P 6900 4500
+F 0 "C10" H 6970 4620 42  0000 L BNN
+F 1 "8.2pF" H 6960 4430 42  0000 L BNN
+F 2 "2m_70cm_diplexer:0805" H 6900 4500 50  0001 C CNN
+F 3 "" H 6900 4500 50  0001 C CNN
+	1    6900 4500
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
